@@ -9,17 +9,96 @@
         Title="Controls" Height="450" Width="800">
     <StackPanel>
 
-        
-        
-        
-        
+        <Button Width="150" FontSize="42">
+            <Button.ToolTip>
+                <StackPanel>
+                    <Label>olaoaloalolaol</Label>
+                    <Line Stroke="LimeGreen" StrokeThickness="5" X1="90" ></Line>
+                    <Image Stretch="Fill" Width="75" Height="75" Source="/wpf-logo.png"></Image>
+                </StackPanel>
+            </Button.ToolTip>
 
-        
-        
+            Click
+        </Button>
+
+
+
+        <!--<Border BorderThickness="2" BorderBrush="DarkSlateGray" CornerRadius="50" Height="100" Width="100" Background="Lime">
+            <Button BorderThickness="0" Background="Transparent" FontSize="38">Click</Button>
+        </Border>-->
+
+
+
+
+
+
+
+
+
+        <!--<StackPanel>
+            <RadioButton GroupName="car" Margin="0 20" BorderBrush="Green" Background="Bisque">
+                <RadioButton.RenderTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="2"/>
+                </RadioButton.RenderTransform> BMW
+            </RadioButton>
+            <RadioButton GroupName="car" Background="LightBlue">Mercedes</RadioButton>
+            <RadioButton GroupName="car" Background="Chocolate">Kia</RadioButton>
+
+
+            <RadioButton GroupName="num" Background="LightBlue">1</RadioButton>
+            <RadioButton GroupName="num" Background="Chocolate">2</RadioButton>
+        </StackPanel>-->
+
+
+
+
+
+        <!--<StackPanel>
+            <CheckBox Margin="0 20" BorderBrush="Green" Background="Bisque">
+                <CheckBox.RenderTransform>
+                        <ScaleTransform ScaleX="2" ScaleY="2"/>
+                </CheckBox.RenderTransform> BMW
+            </CheckBox>
+            <CheckBox Background="LightBlue">Mercedes</CheckBox>
+            <CheckBox Background="Chocolate">Kia</CheckBox>
+            <RibbonCheckBox Background="Chocolate">Mazda</RibbonCheckBox>
+        </StackPanel>-->
+
+
+
+
+        <!--<ToggleButton IsChecked="{x:Null}" Checked="ToggleButton_Checked" Unchecked="ToggleButton_Unchecked" FontSize="36" >Click Me</ToggleButton>-->
+
+
+
+
+
+        <!--<StackPanel Height="40" Width="400" Orientation="Horizontal">
+            <RepeatButton HorizontalAlignment="Left" Width="70" Click="RepeatButton_Click">Down</RepeatButton>
+            <ProgressBar Name="progressBar" Width="250" Margin="5 0" Value="50" Minimum="10" Maximum="150"></ProgressBar>
+            <RepeatButton HorizontalAlignment="Right" Width="70" Click="RepeatButton_Click">Up</RepeatButton>
+        </StackPanel>-->
+
+
+        <!--<StackPanel>
+            <RepeatButton FontSize="48" ClickMode="Release" Click="Button_Click">Click</RepeatButton>
+            <TextBlock FontSize="48" Name="textBlock" Text="Empty"></TextBlock>
+        </StackPanel>-->
+
+
+        <!--<StackPanel>
+            <Button FontSize="48" ClickMode="Press" Click="Button_Click">Click</Button>
+            <TextBlock FontSize="48" Name="textBlock" Text="Empty"></TextBlock>
+        </StackPanel>-->
+
+
+
+
+
         <!--<Frame Name="frame"></Frame>-->
-        
-        
-        
+
+
+
 
 
         <!--<StackPanel>
@@ -29,11 +108,11 @@
             <Label Target="txt_password" FontSize="36">Pass_word</Label>
             <TextBox Name="txt_password" FontSize="36"></TextBox>
         </StackPanel>-->
-        
-        
-        
-                            
-      
+
+
+
+
+
         <!--<Slider
             Value="50"
             Minimum="10" 
